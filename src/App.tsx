@@ -20,7 +20,6 @@ function App() {
             <Route path="/colaboradores" element={<ListaColaborador />}/>
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/perfil" element={<Perfil />} />
-            <Route path="/pesquisa" element={<Search />} />
           </Routes>
         </div>
         <Footer />
