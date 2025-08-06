@@ -6,6 +6,7 @@ import Sidebar from './components/sidebar/Sidebar'
 import Perfil from './pages/perfil/Perfil'
 import Sobre from './pages/sobre/Sobre'
 import Home from './pages/home/Home';
+import Search from './components/search/Search';
 
 function App() {
 
@@ -16,9 +17,10 @@ function App() {
         <div className="min-h-[80vh]">
           <Routes>
             <Route path="/home" element={<Home />} />
-            <Route path="/colaboradores" element={<ListaColaborador />} />
+            <Route path="/colaboradores" element={<ListaColaborador />}/>
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/perfil" element={<Perfil />} />
+            <Route path="/pesquisa" element={<Search />} />
           </Routes>
         </div>
         <Footer />
