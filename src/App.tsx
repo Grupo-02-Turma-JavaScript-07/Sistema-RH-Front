@@ -6,7 +6,6 @@ import Sidebar from './components/sidebar/Sidebar'
 import Perfil from './pages/perfil/Perfil'
 import Sobre from './pages/sobre/Sobre'
 import Home from './pages/home/Home';
-import Search from './components/search/Search';
 
 function App() {
 
