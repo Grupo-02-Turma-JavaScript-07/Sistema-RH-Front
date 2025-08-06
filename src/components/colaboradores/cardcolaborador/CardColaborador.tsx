@@ -9,7 +9,7 @@ function CardColaborador({ colaborador }: Props) {
   const dataFormatada = new Date(colaborador.dataAdmissao).toLocaleDateString("pt-BR");
 
   return (
-    <div className=" p-6 max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <div className="font-zain text-2xl p-6 max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <div className="flex flex-col items-center pb-3">
         <img
           className="w-30 h-30 mb-3 rounded-full shadow-lg object-cover"

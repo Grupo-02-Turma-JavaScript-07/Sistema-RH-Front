@@ -14,18 +14,17 @@ function Home() {
         <h1 className="font-marko text-3xl md:text-5xl font-bold mb-4">
         Olá! Este é o <span className="text-cyan-400 ">[Flow G2 RH]</span>
         </h1>
-        <p className="text-2xl font-bold font-zain mb-6">
-        O Flow G2 RH é um sistema de
-        gerenciamento de Recursos Humanos<br />
+        <p className="text-2xl font-bold font-zain mb-6 ">
+        Um sistema de gerenciamento de Recursos Humanos<br />
         criado para auxiliar empresas no
-        controle dos dados essenciais de seus<br />
+        controle dos dados<br /> essenciais de seus
         colaboradores.
         </p>
         <a
         href="#recursos"
-        className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded shadow-md"
+        className="bg-blue-600 hover:bg-blue-700 text-white font-zain text-2xl py-2 px-4 rounded shadow-md"
         >
-        Veja nossos serviços !
+        Confira nossos serviços !
         </a>
     </div>
     </div>
@@ -33,12 +32,13 @@ function Home() {
         <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div>
-            <h3 className="text-3xl md:text-5xl mb-6 font-bold text-blue-600">Sobre</h3>
-            <p className="text-black leading-relaxed ">
-                O Flow G2 RH é uma solução completa de gestão de Recursos Humanos desenvolvida para otimizar o controle e a organização dos dados dos colaboradores dentro das empresas.
-                Com uma interface moderna, intuitiva e fácil de usar, o sistema foi projetado para atender às necessidades do setor de RH, permitindo o cadastro, visualização, atualização e exclusão de registros de funcionários de forma prática e eficiente.
-                Além disso, o Flow G2 RH contribui diretamente para a melhoria da comunicação interna, o alinhamento das equipes e o cumprimento das obrigações legais relacionadas à gestão de pessoas.
-                Ideal para empresas que buscam automatizar processos e centralizar informações, o sistema torna a rotina do RH mais ágil, transparente e segura — apoiando a tomada de decisões estratégicas e o crescimento sustentável do negócio.
+            <h3 className="font-marko text-3xl md:text-5xl mb-6 font-bold text-blue-600">Resumo</h3>
+            <p className="font-zain text-2xl text-black mb-6 ">
+                O Flow G2 RH é um sistema completo de gestão de Recursos Humanos, desenvolvido para otimizar o controle de dados dos colaboradores.
+                Com interface intuitiva, permite gerenciar cadastros de forma prática e eficiente. Além de automatizar processos,
+                melhora a comunicação interna e apoia decisões estratégicas, tornando a rotina do RH mais ágil, segura e organizada.
+
+
             </p>
             </div>
 

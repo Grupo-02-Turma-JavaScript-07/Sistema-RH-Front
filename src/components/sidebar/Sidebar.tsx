@@ -6,9 +6,9 @@ function Sidebar() {
   const [abaColaboradores, setAbaColaboradores] = useState(false)
 
   return (
-    <div className="flex">
+    <div className="flex ">
       <aside className="w-60 h-screen bg-white border-r border-gray-200 text-sm font-medium relative">
-        <div className="px-5 pt-4 pb-3 text-xs font-bold tracking-wide text-gray-800">
+        <div className="px-5 pt-4 pb-3 font-zain text-xl font-semibold tracking-wide text-gray-800">
           RH - FLOW
         </div>
         <div className="w-full h-px bg-indigo-100 mb-2" />
