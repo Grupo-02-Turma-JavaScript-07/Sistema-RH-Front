@@ -11,10 +11,10 @@ function Home() {
 
 
     <div className=" z-10 px-6 pt-24 max-w-3x1 w-full ml-40 h-full mt-30">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4">
-        Olá! Este é o <span className="text-cyan-400">[Flow G2 RH]</span>
+        <h1 className="font-marko text-3xl md:text-5xl font-bold mb-4">
+        Olá! Este é o <span className="text-cyan-400 ">[Flow G2 RH]</span>
         </h1>
-        <p className="text-base font-bold md:text-lg mb-6">
+        <p className="text-2xl font-bold font-zain mb-6">
         O Flow G2 RH é um sistema de
         gerenciamento de Recursos Humanos<br />
         criado para auxiliar empresas no
