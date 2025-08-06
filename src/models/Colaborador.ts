@@ -1,4 +1,4 @@
-export default interface Colaborador {
+export interface Colaborador {
     id: number;
     foto: string;
     nome: string;

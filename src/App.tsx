@@ -11,9 +11,12 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="flex min-h-screen">
+        {/* Sidebar fixa à esquerda */}
         <Sidebar />
-        <div className="min-h-[80vh]">
+        {/* Conteúdo principal das rotas */}
+        <div className="flex-1 bg-gray-50 p-6">
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/colaboradores" element={<ListaColaborador />} />
@@ -21,8 +24,9 @@ function App() {
             <Route path="/perfil" element={<Perfil />} />
           </Routes>
         </div>
-        <Footer />
-      </BrowserRouter>
+      </div>
+      <Footer />
+    </BrowserRouter>
     </>
   )
 }
