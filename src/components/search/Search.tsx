@@ -2,7 +2,11 @@ import { FaSearch } from "react-icons/fa"
 
 function Search() {
   return (
-    <form className="flex justify-center mx-auto">
+    <div className="flex justify-between px-4 py-2">
+      <h1 className="text-4xl font-marko font-semibold text-gray-800 me-4">
+        Colaboradores
+      </h1>
+    <form className="flex items-center w-full max-w-md">
       <label htmlFor="" className="sr-only">Search</label>
       <div className="relative w-full">
         <input 
@@ -21,6 +25,7 @@ function Search() {
         </FaSearch>
       </button>
     </form>
+  </div>
   )
 }
 export default Search
