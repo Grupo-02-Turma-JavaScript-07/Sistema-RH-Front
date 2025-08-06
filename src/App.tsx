@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer'
 import Sidebar from './components/sidebar/Sidebar'
 import Perfil from './pages/perfil/Perfil'
 import Sobre from './pages/sobre/Sobre'
+import Home from './pages/home/Home';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Sidebar />
         <div className="min-h-[80vh]">
           <Routes>
+            <Route path="/home" element={<Home />} />
             <Route path="/colaboradores" element={<ListaColaborador />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/perfil" element={<Perfil />} />
