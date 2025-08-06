@@ -1,6 +1,11 @@
+import { useState } from "react"
 import { FaSearch } from "react-icons/fa"
 
 function Search() {
+
+  const [termo, setTermo] = useState('')
+  const [pesquisaRes, setPesquisaRes] = useState([])
+
   return (
     <form className="flex justify-center mx-auto">
       <label htmlFor="" className="sr-only">Search</label>
@@ -9,8 +14,9 @@ function Search() {
           type="text"
           id="nome"
           name="nome"
-          className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2"
-        placeholder="Insira o nome..."
+          className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg block
+          w-full p-2 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+        placeholder="Pesquise..."
         required
       />
       </div>
@@ -22,3 +28,4 @@ function Search() {
     </form>
   )
 }
+export default Search
