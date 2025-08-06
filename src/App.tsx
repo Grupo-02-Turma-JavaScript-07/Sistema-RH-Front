@@ -19,7 +19,7 @@ function App() {
         <div className="flex-1 bg-gray-50 p-6">
           <Routes>
             <Route path="/home" element={<Home />} />
-            <Route path="/colaboradores" element={<ListaColaborador />} />
+            <Route path="/colaboradores" element={<ListaColaborador />}/>
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/perfil" element={<Perfil />} />
           </Routes>
