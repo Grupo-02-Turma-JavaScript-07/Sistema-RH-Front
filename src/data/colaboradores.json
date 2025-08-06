@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "nome": "Ana Paula Martins",
+      "salario": 5200.50,
+      "cargo": "Desenvolvedora Frontend",
+      "dataAdmissao": "2021-03-15T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "nome": "Carlos Eduardo Silva",
+      "salario": 7800.00,
+      "cargo": "Engenheiro de Software",
+      "dataAdmissao": "2020-07-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "nome": "Fernanda Rocha",
+      "salario": 4200.75,
+      "cargo": "Analista de QA",
+      "dataAdmissao": "2022-01-10T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "nome": "João Vitor Mendes",
+      "salario": 6300.00,
+      "cargo": "Product Owner",
+      "dataAdmissao": "2019-11-20T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "nome": "Mariana Lopes",
+      "salario": 3900.00,
+      "cargo": "Assistente Administrativo",
+      "dataAdmissao": "2023-05-05T00:00:00Z"
+    }
+]  
