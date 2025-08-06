@@ -1,11 +1,6 @@
-import { useState } from "react"
 import { FaSearch } from "react-icons/fa"
 
 function Search() {
-
-  const [termo, setTermo] = useState('')
-  const [pesquisaRes, setPesquisaRes] = useState([])
-
   return (
     <form className="flex justify-center mx-auto">
       <label htmlFor="" className="sr-only">Search</label>
