@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Home() {
     return (
         <>
@@ -21,10 +23,10 @@ function Home() {
         colaboradores.
         </p>
         <a
-        href="#recursos"
         className="bg-blue-600 hover:bg-blue-700 text-white font-zain text-2xl py-2 px-4 rounded shadow-md"
         >
-        Confira nossos serviços !
+            <Link to='/colaboradores' className='cursor-pointer'>Experimente nosso sistema !</Link>
+        
         </a>
     </div>
     </div>
@@ -33,12 +35,10 @@ function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div>
             <h3 className="font-marko text-3xl md:text-5xl mb-6 font-bold text-blue-600">Resumo</h3>
-            <p className="font-zain text-2xl text-black mb-6 ">
+            <p className="font-zain text-2xl text-black mb-6 text-justify">
                 O Flow G2 RH é um sistema completo de gestão de Recursos Humanos, desenvolvido para otimizar o controle de dados dos colaboradores.
                 Com interface intuitiva, permite gerenciar cadastros de forma prática e eficiente. Além de automatizar processos,
                 melhora a comunicação interna e apoia decisões estratégicas, tornando a rotina do RH mais ágil, segura e organizada.
-
-
             </p>
             </div>
 
