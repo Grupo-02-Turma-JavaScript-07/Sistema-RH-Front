@@ -140,7 +140,7 @@ function RhFlow() {
 
         <div className="max-w-md">
           <img
-            src="src/assets/beneficios.png"
+            src="https://ik.imagekit.io/6j8wkskq7/beneficios.png?updatedAt=1754583349689"
             alt="Benefícios"
             className="w-60"
           />

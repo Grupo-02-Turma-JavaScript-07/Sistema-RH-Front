@@ -29,7 +29,7 @@ function ListaColaboradores() {
             color="#26C6DA"
             width="100"
             visible={true}
-            ariaLabel="falling-circles-loading"
+            aria-Label="falling-circles-loading"
           />
         </div>
       ) : (
