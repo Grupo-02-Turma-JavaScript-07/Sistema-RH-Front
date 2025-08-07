@@ -17,26 +17,31 @@ function RhFlow() {
         </div>
       </div>
 
-      <section className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 px-4 md:px-12 py-10 w-full">
-        <div className="md:w-1/2 flex flex-col justify-center">
-          <h2 className="text-2xl md:text-3xl font-marko font-bold text-cyan-400 mb-4 text-left">
-            O que é o RH Flow?
-          </h2>
-          <p className="text-gray-700 text-justify text-base md:text-2xl font-zain leading-relaxed">
-            O RH Flow é uma plataforma inovadora que facilita a gestão de
-            recursos humanos, automatizando processos como recrutamento,
-            integração de colaboradores, avaliação de desempenho e muito mais.
-          </p>
-        </div>
+      <section className="bg-white py-10 w-full">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 px-4">
+          
+          <div className="md:w-1/2 flex flex-col justify-center">
+            <h2 className="text-2xl md:text-3xl font-marko font-bold text-cyan-400 mb-4 text-left">
+              O que é o RH Flow?
+            </h2>
+            <p className="text-gray-700 text-justify text-base md:text-2xl font-zain leading-relaxed">
+              O RH Flow é uma plataforma inovadora que facilita a gestão de
+              recursos humanos, automatizando processos como recrutamento,
+              integração de colaboradores, avaliação de desempenho e muito mais.
+            </p>
+          </div>
 
-        <div className="md:w-1/2 flex justify-center">
-          <img
-            src="https://i.imgur.com/yS25L4F.png"
-            alt="Ilustração RH"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md animate-fade-in rounded-3xl"
-          />
+          <div className="md:w-1/2 flex justify-center">
+            <img
+              src="https://i.imgur.com/yS25L4F.png"
+              alt="Ilustração RH"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md animate-fade-in rounded-3xl"
+            />
+          </div>
+
         </div>
       </section>
+
 
       <section className="px-4 md:px-8 py-12 w-full max-w-4xl mx-auto text-gray-700 leading-relaxed text-justify text-base md:text-2xl font-zain space-y-6 animate-fade-in-up -mt-10">
         <p>
