@@ -1,7 +1,7 @@
 function RhFlow() {
   return (
-    <div className="ml-60 flex flex-col items-center max-w-8xl mx-auto px-12">
-      <div className="relative h-[60vh] mb-4 w-[calc(98.7vw-15rem)]">
+    <div className="flex flex-col items-center max-w-8xl mx-auto">
+      <div className="relative h-[60vh] mb-4 w-full">
         <img
           src="https://i.imgur.com/Yz1EhUL.jpeg"
           alt="Imagem de capa RH Flow"
