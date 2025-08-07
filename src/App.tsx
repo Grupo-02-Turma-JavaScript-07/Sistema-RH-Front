@@ -14,7 +14,7 @@ function App() {
     <>
     <BrowserRouter>
       <div className="flex min-h-screen">
-        {/* ## to do: Search e Sidebar deve ser insideridos diretamente no componente utilizado */}
+        {/* ## to do: Search e Sidebar deve ser inseridos diretamente no componente utilizado */}
         {/* Sidebar fixa à esquerda */}
         {/* <Sidebar /> */}
         {/* Conteúdo principal das rotas */}
