@@ -4,8 +4,8 @@ import ListaColaborador from './components/colaboradores/listacolaborador/ListaC
 import Footer from './components/footer/Footer'
 // import Sidebar from './components/sidebar/Sidebar'
 import Perfil from './pages/perfil/Perfil'
-import Sobre from './pages/sobre/Sobre'
 import Home from './pages/home/Home';
+import Cadastrar from './pages/cadastrar/Cadastrar';
 // import Search from './components/search/Search';
 
 function App() {
@@ -25,6 +25,8 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/colaboradores" element={<ListaColaborador />}/>
             <Route path="/perfil" element={<Perfil idColaborador={1}/>} />
+            <Route path="/cadastrar" element={<Cadastrar />} />
+
           </Routes>
         </div>
       </div>
