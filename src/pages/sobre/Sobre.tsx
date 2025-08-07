@@ -22,10 +22,10 @@ function RhFlow() {
         id="sobre"
       >
         <div className="md:w-1/2 flex flex-col justify-center">
-          <h2 className="text-3xl font-marko font-bold text-cyan-600 mb-4 text-left">
+          <h2 className="text-3xl font-marko px-20 font-bold text-cyan-400 mb-4 text-left">
             O que é o RH Flow?
           </h2>
-          <p className="text-gray-700 text-justify text-2xl font-zain leading-relaxed">
+          <p className="text-gray-700 text-justify px-20 text-2xl font-zain leading-relaxed">
             O RH Flow é uma plataforma inovadora que facilita a gestão de
             recursos humanos, automatizando processos como recrutamento,
             integração de colaboradores, avaliação de desempenho e muito mais.
@@ -60,8 +60,8 @@ function RhFlow() {
         </p>
       </section>
 
-      <section className="px-8 py-16 bg-white w-full max-w-7xl">
-        <h2 className="text-3xl font-marko font-bold text-center text-cyan-600 mb-10">
+      <section className="px-8 py-16 w-full max-w-7xl">
+        <h2 className="text-4xl font-marko font-bold text-center text-cyan-300 mb-10">
           Principais Funcionalidades
         </h2>
 
@@ -130,7 +130,7 @@ function RhFlow() {
 
       <section className="bg-cyan-100 px-8 py-12 flex justify-center items-center gap-20 w-full max-w-4xl mx-auto">
         <div className="max-w-md">
-          <h2 className="text-2xl font-bold font-marko text-cyan-600 mb-6">Benefícios</h2>
+          <h2 className="text-2xl font-bold font-marko text-cyan-400 mb-6">Benefícios</h2>
           <ul className="list-disc list-inside text-justify text-2xl font-zain text-gray-700 space-y-2">
             <li>Mais eficiência nos processos de RH</li>
             <li>Redução de tempo em tarefas repetitivas</li>
@@ -149,7 +149,7 @@ function RhFlow() {
 
       <div className="bg-white px-8 py-12 space-y-12 animate-fade-in w-full max-w-4xl mx-auto">
         <div>
-          <h2 className="text-3xl font-marko font-bold text-cyan-600 mb-4">
+          <h2 className="text-3xl font-marko font-bold text-cyan-400 mb-4">
             Tecnologia e Segurança
           </h2>
           <p className="text-gray-700 text-justify text-2xl font-zain leading-relaxed">
@@ -159,7 +159,7 @@ function RhFlow() {
         </div>
 
         <div>
-          <h2 className="text-3xl font-bold font-marko text-cyan-600 mb-4">
+          <h2 className="text-3xl font-bold font-marko text-cyan-400 mb-4">
             Integração com Outros Sistemas
           </h2>
           <p className="text-gray-700 text-justify text-2xl font-zain leading-relaxed">
@@ -170,7 +170,7 @@ function RhFlow() {
         </div>
 
         <div>
-          <h2 className="text-3xl font-bold font-marko text-cyan-600 mb-4">
+          <h2 className="text-3xl font-bold font-marko text-cyan-400 mb-4">
             Visão Futura
           </h2>
           <p className="text-gray-700 text-justify text-2xl font-zain leading-relaxed">

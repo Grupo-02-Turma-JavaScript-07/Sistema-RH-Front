@@ -15,7 +15,7 @@ function Sidebar() {
 
   return (
     <div className="flex">
-      <aside className={`h-screen bg-white border-r border-gray-200 text-sm font-medium relative transition-all duration-300 ${minimizado ? "w-16" : "w-60"}`}>
+      <aside className={` min-h-screen bg-white border-r border-gray-200 text-sm font-medium relative transition-all duration-300 ${minimizado ? "w-16" : "w-60"}`}>
         <button
           onClick={() => setMinimizado(!minimizado)}
           className="absolute -right-3 top-2 bg-white border border-indigo-100 cursor-pointer rounded-full p-1 shadow hover:bg-gray-100"
@@ -26,7 +26,7 @@ function Sidebar() {
           {!minimizado && (
             <Link to='/'>
               <span
-                className={`text-cyan-700 text-2xl whitespace-nowrap transition-opacity duration-300 ease-in-out ${minimizado ? 'opacity-0 delay-0' : 'opacity-100 delay-200'
+                className={`text-cyan-400 font-marko text-xl whitespace-nowrap transition-opacity duration-300 ease-in-out ${minimizado ? 'opacity-0 delay-0' : 'opacity-100 delay-200'
                   }`}
               >
                 [Flow G2 RH]
@@ -57,8 +57,10 @@ function Sidebar() {
             <Link to="/colaboradores" className={`hover:text-indigo-600 ${pathname === "/colaboradores" ? "text-indigo-700 font-semibold" : ""}`}>
               Listar
             </Link>
-            {/* ##todo - vamos implementar o cadastro? */}
-            <span className="hover:text-indigo-600 cursor-pointer">Cadastrar</span>
+            
+            <Link to="/cadastrar" className={`hover:text-indigo-600 ${pathname === "/cadastrar" ? "text-indigo-700 font-semibold" : ""}`}>
+              Cadastrar
+            </Link>
           </div>
         )}
       </aside>

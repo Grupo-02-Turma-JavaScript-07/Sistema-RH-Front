@@ -2,7 +2,7 @@ import { FaSearch } from "react-icons/fa"
 
 function Search() {
   return (
-    <div className="flex justify-between px-4 py-2">
+    <div className="flex justify-between mb-6 py-2">
       <h1 className="text-4xl font-marko font-semibold text-gray-800 me-4">
         Colaboradores
       </h1>

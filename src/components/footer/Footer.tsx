@@ -7,7 +7,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-8">
         <div className="font-zain flex flex-col md:flex-row md:justify-between md:items-start gap-6">
           <div>
-            <h1 className="text-4xl text-cyan-400 font-bold">[Flow G2 RH]</h1>
+            <h1 className="text-2xl text-cyan-400 font-bold font-marko">[Flow G2 RH]</h1>
             <p className="text-gray-300 mt-2 max-w-xs text-justify">
               Uma plataforma de gestão de pessoas feita para simplificar sua rotina e empoderar seu RH.
             </p>
@@ -15,13 +15,13 @@ function Footer() {
 
           <ul className="flex flex-col sm:flex-row gap-4 text-xl font-medium">
             <li className="hover:text-gray-300 transition">
-              <a href="#home">Início</a>
+              <a href="/home">Início</a>
             </li>
             <li className="hover:text-gray-300 transition">
               <a href="#sobre">Sobre</a>
             </li>
             <li className="hover:text-gray-300 transition">
-              <a href="#">Recursos</a>
+              <a href="/perfil">Perfil</a>
             </li>
             <li className="hover:text-gray-300 transition">
               <a href="#">Contato</a>
