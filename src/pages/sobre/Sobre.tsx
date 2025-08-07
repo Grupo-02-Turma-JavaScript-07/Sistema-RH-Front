@@ -1,6 +1,6 @@
 function RhFlow() {
   return (
-    <div className="ml-60 flex flex-col items-center max-w-8xl mx-auto px-12 -mt-150">
+    <div className="ml-60 flex flex-col items-center max-w-8xl mx-auto px-12">
       <div className="relative h-[60vh] mb-4 w-[calc(98.7vw-15rem)]">
         <img
           src="https://i.imgur.com/Yz1EhUL.jpeg"
