@@ -1,4 +1,3 @@
-import React from "react";
 import type {Colaborador} from "../../../models/Colaborador";
 
 interface Props {
@@ -28,19 +27,40 @@ function CardColaborador({ colaborador }: Props) {
         <span className="text-xl text-gray-500 dark:text-gray-400">
           Salário: R$ {colaborador.salario.toFixed(2)}
         </span>
-        <div className=" flex mt-2 md:mt-6 ">
-          <a
-            href="#"
-            className="inline-flex items-center px-3 py-1.5 text-xl font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Contato
-          </a>
+        <div className="flex mt-2 md:mt-6 items-center">
+          <div className="relative group">
+            <a
+              href="#"
+              className="inline-flex items-center px-3 py-1.5 text-xl font-medium 
+              text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 
+              focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 
+              dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Contato
+            </a>
+            <div className="absolute mt-2 w-30 bg-white border rounded-lg shadow-lg 
+              opacity-0 group-hover:opacity-100 invisible p-5 group-hover:visible transition-all 
+              duration-200">
+                <div className='flex flex-row items-center hover:bg-gray-100'>
+                    <p>Em breve</p>
+                </div>
+            </div>
+          </div>
+          <div className="relative group">
           <a
             href="#"
             className="py-1.5 px-3 ms-2 text-xl font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
           >
-            Mensagem
+            Contato
           </a>
+            <div className="absolute mt-2 w-30 bg-white border rounded-lg shadow-lg 
+              opacity-0 group-hover:opacity-100 invisible p-5 group-hover:visible transition-all 
+              duration-200">
+                <div className='flex flex-row items-center hover:bg-gray-100'>
+                    <p>Em breve</p>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
