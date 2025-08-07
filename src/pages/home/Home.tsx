@@ -8,9 +8,9 @@ function Home() {
             <div className="container mx-auto flex flex-wrap justify-between items-center py-4 px-4">
                 <a
                     href="#home"
-                    className="flex gap-2 items-center text-3xl md:text-4xl font-marko text-white hover:text-cyan-300 transition-colors duration-300"
+                    className="w-full md:w-auto text-center md:text-left flex flex-col md:flex-row justify-center md:justify-start items-center gap-2 text-2xl sm:text-3xl md:text-4xl font-marko text-white hover:text-cyan-300 transition-colors duration-300"
                 >
-                    <h1>[Flow G2 RH]</h1>
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl">[Flow G2 RH]</h1>
                 </a>
 
                 <nav className="w-full md:w-auto mt-4 md:mt-0">

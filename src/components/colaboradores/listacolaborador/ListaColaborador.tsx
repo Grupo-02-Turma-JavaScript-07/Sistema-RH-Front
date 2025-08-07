@@ -9,6 +9,7 @@ import { FallingLines } from "react-loader-spinner";
 function ListaColaboradores() {
   const [colaboradores, setColaboradores] = useState<Colaborador[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [sidebarMinimizada, setSidebarMinimizada] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -34,12 +35,15 @@ function ListaColaboradores() {
         </div>
       ) : (
         <>
-          <Sidebar />
-          <div className="flex flex-col justify-center w-full my-4">
+          <Sidebar
+            minimizado={sidebarMinimizada}
+            setMinimizado={setSidebarMinimizada}
+          />
+          <div className={`flex flex-col justify-center w-full my-4 transition-all duration-300 ${sidebarMinimizada ? 'ml-16' : 'ml-60'} max-sm:ml-0`}>
             <div className="container flex flex-col w-full p-4">
               <Search />
               {isVazio ? (
-                <div className="text-center text-gray-700 dark:text-gray-300 mt-8">
+            <div className="text-center text-gray-700 dark:text-gray-300 mt-8">
                   Nenhum colaborador encontrado.
                 </div>
               ) : (
