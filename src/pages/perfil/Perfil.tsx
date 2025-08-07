@@ -1,4 +1,4 @@
-import { Plus } from '@phosphor-icons/react';
+import { Gear, Plus, UserCircle } from '@phosphor-icons/react';
 import { getColaboradorById } from '../../service/Service';
 
 interface PerfilProps {
@@ -20,11 +20,17 @@ function Perfil({ idColaborador }: PerfilProps) {
                         className="h-10 w-10 rounded-full cursor-pointer"
                         />
                     </button>
-                    <div className="absolute left-[-150px] mt-2 w-48 bg-white border rounded-lg shadow-lg 
-                    opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all 
+                    <div className="absolute left-[-250px] mt-2 w-[20vw] bg-white border rounded-lg shadow-lg 
+                    opacity-0 group-hover:opacity-100 invisible flex-nowrap p-5 group-hover:visible transition-all 
                     duration-200">
-                        <a href="#" className="font-zain text-2xl block px-4 py-2 hover:bg-gray-100">Meu dados</a>
-                        <a href="#" className="font-zain text-2xl block px-4 py-2 hover:bg-gray-100">Configurações da conta</a>
+                        <div className='flex flex-row items-center hover:bg-gray-100'>
+                            <UserCircle size={20} />
+                            <a href="#" className="font-zain text-2xl block px-4 py-2">Meu dados</a>
+                        </div>
+                        <div className='flex flex-row items-center hover:bg-gray-100'>
+                            <Gear size={20} />
+                            <a href="#" className="font-zain text-2xl block px-4 py-2">Configurações da conta</a>
+                        </div>
                     </div>
                 </div>
             </div>
