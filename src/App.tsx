@@ -24,7 +24,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/colaboradores" element={<ListaColaborador />}/>
-            <Route path="/sobre" element={<Sobre />} />
             <Route path="/perfil" element={<Perfil idColaborador={1}/>} />
           </Routes>
         </div>

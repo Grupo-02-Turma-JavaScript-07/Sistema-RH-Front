@@ -1,5 +1,5 @@
 import { FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -15,10 +15,10 @@ function Footer() {
 
           <ul className="flex flex-col sm:flex-row gap-4 text-xl font-medium">
             <li className="hover:text-gray-300 transition">
-              <Link to="/home">Início</Link>
+              <a href="#home">Início</a>
             </li>
             <li className="hover:text-gray-300 transition">
-              <Link to="/sobre">Sobre</Link>
+              <a href="#sobre">Sobre</a>
             </li>
             <li className="hover:text-gray-300 transition">
               <a href="#">Recursos</a>

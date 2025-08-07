@@ -20,8 +20,8 @@ function ListaColaboradores() {
       <div className="flex">
         <Sidebar />
         <div className="flex flex-col justify-center w-full my-4">
-            <Search/>
           <div className="container flex flex-col w-full p-4">
+            <Search/>
             {isVazio ? (
               <div className="text-center text-gray-700 dark:text-gray-300">
                 Nenhum colaborador encontrado.

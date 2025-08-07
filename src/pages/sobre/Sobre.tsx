@@ -1,6 +1,6 @@
 function RhFlow() {
   return (
-    <div className="flex flex-col items-center max-w-8xl mx-auto">
+    <div id="sobre" className="flex flex-col items-center max-w-8xl mx-auto">
       <div className="relative h-[60vh] mb-4 w-full">
         <img
           src="https://i.imgur.com/Yz1EhUL.jpeg"
@@ -10,8 +10,8 @@ function RhFlow() {
 
         <div className="absolute inset-0 bg-black/20">
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-white text-5xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-              RH Flow
+            <h1 className="text-white font-marko uppercase text-5xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+              Sobre Nós
             </h1>
           </div>
         </div>
@@ -22,10 +22,10 @@ function RhFlow() {
         id="sobre"
       >
         <div className="md:w-1/2 flex flex-col justify-center">
-          <h2 className="text-3xl font-bold text-cyan-600 mb-4 text-left">
+          <h2 className="text-3xl font-marko font-bold text-cyan-600 mb-4 text-left">
             O que é o RH Flow?
           </h2>
-          <p className="text-gray-700 leading-relaxed text-left">
+          <p className="text-gray-700 text-justify text-2xl font-zain leading-relaxed">
             O RH Flow é uma plataforma inovadora que facilita a gestão de
             recursos humanos, automatizando processos como recrutamento,
             integração de colaboradores, avaliação de desempenho e muito mais.
@@ -41,7 +41,7 @@ function RhFlow() {
         </div>
       </section>
 
-      <section className="px-8 py-12 w-full max-w-4xl mx-auto text-gray-700 leading-relaxed text-left space-y-6 animate-fade-in-up -mt-10">
+      <section className="px-8 py-12 w-full max-w-4xl mx-auto text-gray-700 leading-relaxed text-justify text-2xl font-zain space-y-6 animate-fade-in-up -mt-10">
         <p>
           O Flow G2 RH é uma solução completa de gestão de Recursos Humanos
           desenvolvida para otimizar o controle e a organização dos dados dos
@@ -61,7 +61,7 @@ function RhFlow() {
       </section>
 
       <section className="px-8 py-16 bg-white w-full max-w-7xl">
-        <h2 className="text-3xl font-bold text-center text-cyan-600 mb-10">
+        <h2 className="text-3xl font-marko font-bold text-center text-cyan-600 mb-10">
           Principais Funcionalidades
         </h2>
 
@@ -130,8 +130,8 @@ function RhFlow() {
 
       <section className="bg-cyan-100 px-8 py-12 flex justify-center items-center gap-20 w-full max-w-4xl mx-auto">
         <div className="max-w-md">
-          <h2 className="text-2xl font-bold text-cyan-600 mb-6">Benefícios</h2>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <h2 className="text-2xl font-bold font-marko text-cyan-600 mb-6">Benefícios</h2>
+          <ul className="list-disc list-inside text-justify text-2xl font-zain text-gray-700 space-y-2">
             <li>Mais eficiência nos processos de RH</li>
             <li>Redução de tempo em tarefas repetitivas</li>
             <li>Melhoria da experiência dos colaboradores</li>
@@ -149,20 +149,20 @@ function RhFlow() {
 
       <div className="bg-white px-8 py-12 space-y-12 animate-fade-in w-full max-w-4xl mx-auto">
         <div>
-          <h2 className="text-3xl font-bold text-cyan-600 mb-4">
+          <h2 className="text-3xl font-marko font-bold text-cyan-600 mb-4">
             Tecnologia e Segurança
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 text-justify text-2xl font-zain leading-relaxed">
             A plataforma utiliza tecnologias modernas com criptografia avançada,
             garantindo a proteção e confidencialidade dos dados.
           </p>
         </div>
 
         <div>
-          <h2 className="text-3xl font-bold text-cyan-600 mb-4">
+          <h2 className="text-3xl font-bold font-marko text-cyan-600 mb-4">
             Integração com Outros Sistemas
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 text-justify text-2xl font-zain leading-relaxed">
             O RH Flow possui integração com sistemas ERP, folha de pagamento e
             outras ferramentas corporativas, facilitando a sincronização de
             dados e reduzindo o retrabalho manual...
@@ -170,10 +170,10 @@ function RhFlow() {
         </div>
 
         <div>
-          <h2 className="text-3xl font-bold text-cyan-600 mb-4">
+          <h2 className="text-3xl font-bold font-marko text-cyan-600 mb-4">
             Visão Futura
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 text-justify text-2xl font-zain leading-relaxed">
             Estamos continuamente aprimorando o RH Flow para incorporar
             inteligência artificial, análise preditiva e recursos de
             gamificação...
@@ -182,7 +182,7 @@ function RhFlow() {
       </div>
 
       <section className="bg-cyan-600 text-white text-center px-8 py-16 rounded-t-3xl shadow-inner w-full max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4">
+        <h2 className="text-3xl font-marko font-bold mb-4">
           Pronto para transformar seu RH?
         </h2>
         <p className="mb-6 text-lg">
