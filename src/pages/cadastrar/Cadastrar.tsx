@@ -7,8 +7,8 @@ function Cadastrar() {
             <div className="flex flex-1 flex-col items-center justify-center">
                 <h1 className="text-3xl my-6 font-marko">Cadastrar Colaborador</h1>
     
-                <form className="flex flex-col gap-6 bg-white p-6 rounded-xl shadow-md w-[50vw] 
-                font-zain text-2xl">
+                <form className="flex flex-col gap-4 bg-white p-6 rounded-xl shadow-md w-[40vw] 
+                font-zain text-xl">
                     <div className="flex flex-col">
                         <label htmlFor="nome" className="mb-1 font-medium">Nome</label>
                         <input
