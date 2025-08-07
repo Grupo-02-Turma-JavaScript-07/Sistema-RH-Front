@@ -1,4 +1,4 @@
-import { Gear, Plus, UserCircle } from '@phosphor-icons/react';
+import { Gear, LockKeyOpen, Password, UserCircle } from '@phosphor-icons/react';
 import { getColaboradorById } from '../../service/Service';
 
 interface PerfilProps {
@@ -10,12 +10,12 @@ function Perfil({ idColaborador }: PerfilProps) {
 
     return (
         <div className="p-4 mx-auto">
-            <div className="flex flex-row justify-between items-center">
+            <div className="flex flex-row justify-between items-center m-3">
                 <h2 className="font-marko text-2xl ">Início</h2>
                 <div className="relative group">
                     <button>
                         <img
-                        src="https://i.pinimg.com/736x/84/3c/84/843c84e8bbaaa979413a20165bc7d9ef.jpg"
+                        src={colaborador?.foto}
                         alt="Imagem avatar"
                         className="h-10 w-10 rounded-full cursor-pointer"
                         />
@@ -34,13 +34,13 @@ function Perfil({ idColaborador }: PerfilProps) {
                     </div>
                 </div>
             </div>
-            <div className='my-5'>
+            <div className='m-5 py-5'>
                 <h3 className='font-marko text-4xl'>Olá,</h3>
                 <p>{colaborador?.nome}</p>
             </div>
-            <div className='flex flex-row justify-between items-center'>
+            <div className='flex flex-row justify-between items-center mx-5 my-5'>
                 <img
-                    src="https://i.pinimg.com/736x/84/3c/84/843c84e8bbaaa979413a20165bc7d9ef.jpg"
+                    src={colaborador?.foto}
                     alt="Imagem avatar"
                     className="my-5 h-20 w-20 rounded-full outline-dashed outline-gray-300 outline-offset-5"
                 />
@@ -59,16 +59,17 @@ function Perfil({ idColaborador }: PerfilProps) {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row gap-20'>
+            <h3 className='font-marko text-2xl mx-2'>Ações rápidas</h3>
+            <div className='flex flex-row justify-start gap-5 px-2'>
                 <div className="my-10 p-4 border border-gray-200 rounded-xl shadow-sm">
-                    <Plus size={20} />
-                    <h2 className=" mt-2 text-lg font-semibold text-gray-800">Novo colaborador</h2>
-                    <p className=" mt-2 font-zain text-2xl text-gray-600">Finalize as configurações do seu perfil.</p>
+                    <LockKeyOpen size={20} />
+                    <h2 className=" mt-2 text-lg font-semibold text-gray-800">Solicitar acesso</h2>
+                    <p className=" mt-2 font-zain text-2xl text-gray-600">Peça permissões adicionais ou acesso a outras áreas.</p>
                 </div>
                 <div className="my-10 p-4 border border-gray-200 rounded-xl shadow-sm">
-                    <Plus size={20} />
-                    <h2 className=" mt-2 text-lg font-semibold text-gray-800">Novo colaborador</h2>
-                    <p className=" mt-2 font-zain text-2xl text-gray-600">Finalize as configurações do seu perfil.</p>
+                    <Password size={20} />
+                    <h2 className=" mt-2 text-lg font-semibold text-gray-800">Alterar senha</h2>
+                    <p className=" mt-2 font-zain text-2xl text-gray-600">Mantenha sua conta segura trocando sua senha regularmente.</p>
                 </div>
             </div>
         </div>
